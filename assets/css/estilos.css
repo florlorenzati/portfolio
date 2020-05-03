@@ -1,0 +1,57 @@
+.nombre{
+    text-align: center;
+    color: #d3dc4f;
+   font-family: 'Bahnschrift SemiCondensed';
+    font-size: 35px;   
+}
+
+.portfolio{
+    text-align: center;
+    color: #41b4b8;
+    font-family: 'Bahnschrift SemiBold';
+    font-size: 28px;  
+}
+
+.foto{
+    border-radius: 50%;
+    width: 115px;
+    height: 115px;
+    float: left;
+}
+
+.intro{
+    margin-left: 200px;
+    color: #ccf5f3;
+    font-family: Calibri;
+    font-size: 20px;  
+    
+}
+
+.fondo1{
+    background-color: #15041a88;
+    padding-bottom: 80px;
+    
+}
+
+.datos{
+    color: #41b4b8;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.columna{
+    float: right;  
+    margin-top: 30px;
+    background-color: #15041a88;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+.texto{
+    color: #ccf5f3;
+    font-family: Calibri;
+    font-size: 18px;  
+    margin-left: 10px;   
+    
+}
