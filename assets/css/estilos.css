@@ -27,10 +27,25 @@
     
 }
 
+.pregunta{
+    font-size: 25px;
+    font-style: oblique;
+    margin-top: 10px;
+}
+
 .fondo1{
     background-color: #15041a88;
     padding-bottom: 80px;
     
+}
+
+button{
+    background-color: yellowgreen;
+    color: black;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 30%;
 }
 
 .datos{
@@ -54,4 +69,52 @@
     font-size: 18px;  
     margin-left: 10px;   
     
+}
+
+#llegada{
+    position: absolute; 
+    top: 250px;
+    left: 350px;
+    width: 100px;
+    height: 100px;
+
+}
+#cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: absolute;
+    left: 30px;
+    top: 150px;
+}
+.cuadros span{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-family: Calibri;
+}
+.cuadros span.s1{
+    left: 42%;
+    top: 0px;
+}
+.cuadros span.s2{
+  left: 5px;
+  top: 40%;
+}
+.cuadros span.s3{
+  right: 5px;
+  top: 40%;
+}
+.cuadros span.s4{
+  bottom: 0px;
+  left: 43%
+}
+#aviso{
+    visibility: hidden;
+    font-family: Arial;
+    font-size: 40px;
+    top: 250px;
+    left: 35%;
+    position: absolute;
+    color: #d3dc4f;
 }
