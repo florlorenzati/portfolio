@@ -261,7 +261,8 @@ function hitBomb (player, bomb)
     if (gameOver == true)
         {
             
-            this.input.keyboard.once('keydown_SPACE', function (event) {
+            this.input.on('pointerdown', function () {
+            //this.input.keyboard.once('keydown_enter', function (event) {
 
                 var game = update.update
                 location.reload();
